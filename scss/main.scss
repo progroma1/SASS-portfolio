@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+.text-secondary {
+    color: $secondary-color;
+  }
+
 header {
     position: fixed;
     z-index: 2;
@@ -38,6 +42,7 @@ main {
          a {
              padding: 0.4rem;
              @include transition-ease;
+
              &:hover {
                  color: $secondary-color;
              }
