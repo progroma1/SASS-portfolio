@@ -74,12 +74,13 @@
     }
 
     &__btn {
-        opacity: 0;        
+        opacity: 0.5;        
         color: set-text-color($secondary-color);
         @include transition-ease;
         
         &:hover {
             color: set-text-color(set-text-color($secondary-color));
+            z-index: 10;
         }
     }
 
